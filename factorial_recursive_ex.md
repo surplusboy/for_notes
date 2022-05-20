@@ -1,7 +1,7 @@
 19 lines (13 sloc)  410 Bytes
    
 ## 재귀함수에 대한 정리
-![image]
+
 
 **1. 개요**
 
@@ -34,3 +34,9 @@ def factorial_recursive(n): # n = 5
 ```
 120
 ```
+
+함수의 흐름은 하단 <그림1.> 및 <그림2.> 참조
+
+![흐름도](https://user-images.githubusercontent.com/84132135/169471163-7976a2b9-eec7-4857-9ef4-cd97b5cb0254.jpg)  
+![반환도](https://user-images.githubusercontent.com/84132135/169471198-78e352b6-e1f5-4c7e-801f-28dc5eed7cf2.jpg)
+
