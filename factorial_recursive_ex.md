@@ -37,6 +37,6 @@ def factorial_recursive(n): # n = 5
 
 함수의 흐름은 하단 <그림1.> 및 <그림2.> 참조
 
-![흐름도](https://user-images.githubusercontent.com/84132135/169471163-7976a2b9-eec7-4857-9ef4-cd97b5cb0254.jpg)  
-![반환도](https://user-images.githubusercontent.com/84132135/169471198-78e352b6-e1f5-4c7e-801f-28dc5eed7cf2.jpg)
+![흐름도](https://user-images.githubusercontent.com/84132135/169472662-7c6ff011-1f60-4355-8c64-eec3723b4c66.jpg)
+![반환도](https://user-images.githubusercontent.com/84132135/169472672-f926c815-449a-4518-b668-43ba4444871c.jpg)
 
