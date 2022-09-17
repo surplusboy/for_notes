@@ -14,3 +14,16 @@ WSL 을 이용하여 윈도우에서 리눅스 파일시스템을 이용할 순 
 (WSL이 사용하는 공간의 확장이 가능하긴 하다. ref : https://docs.microsoft.com/ko-kr/windows/wsl/vhd-size)  
 또한 컨테이너가 사용할 수 있는 공간의 확장이 필요할때도 실제 리눅스 환경에서는 더욱 간단한 방법들로 해결이 가능하다.  
 (ref : https://medium.com/@catap/how-to-increase-docker-container-disk-size-over-devicemapper-1034a0b3df6e)
+
+
+### 파이참 IDE 에서 출력 콘솔 바꾸기 ###  
+
+#### 개요 ####
+파이참을 통해 확인(디버깅 등)이 필요하여 Ctrl + Shift + F10 를 이용하여 py 를 실행시킬 경우  
+터미널 환경에서만 출력되는 다양한 라이브러리들이 출력되지 못하는 경우가 있다.
+ex) getpass 등은 정상적인 출력이 되지 않아 코드가 실행되지 않게 된다.  
+
+#### 해결방법 ####
+해결법은 파이참에서 해당 py 의 출력 콘솔을 터미널 환경으로 변경하면 된다.
+kor : 실행 → 구성 편집 → 출력 콘솔에서 터미널 에뮬레이션 → Check 
+eng : Run → Edit Configurations → Python and select Emulate terminal in output console → Check
